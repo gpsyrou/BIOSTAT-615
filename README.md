@@ -7,4 +7,7 @@ Thefirst line of our output should containthe total number of possible combinati
 
 2) Unscrambler game
 
-3) Comparison of Sorting Algorithms
+3) Comparison of 4 different versions of Merge Sort Algorithm
+
+Task: Construct 4 different versions of the merge sort algorithm, given some predefined functions (or more accurately, given the arguments).
+At first, we implemented the version in which we were passing the array, which we wanted to sort, by using a pointer. Secondly, we implemented a merge sort algorithm by passing a value (in our homework program specifically was a vector).Our third function was about merge sort by passing a vector via reference. Finally, the last one was pretty much in the same logic as the third, with only difference that we were also passing by reference a second vector (that helped us to perform the task a little better and faster as we will see later in this discussion).
