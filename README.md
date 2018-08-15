@@ -6,3 +6,5 @@ Statistical Computing Projects
 Thefirst line of our output should containthe total number of possible combinations. If the number is positive, starting from the second line, we list all the specific combinations, where the number of bills or coins of each values are printed.
 
 2) Unscrambler game
+
+3) Comparison of Sorting Algorithms
