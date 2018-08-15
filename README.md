@@ -7,7 +7,7 @@ Thefirst line of our output should containthe total number of possible combinati
 
 2) Unscrambler game
 
-3) Comparison of 4 different versions of Merge Sort Algorithm
+3) <b>Comparison of 4 different versions of Merge Sort Algorithm <b/>
 
     Task: Construct 4 different versions of the merge sort algorithm, given some predefined functions (or more accurately, given the arguments).
     <br><br/>
