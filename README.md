@@ -9,7 +9,10 @@ Thefirst line of our output should containthe total number of possible combinati
 
 This .py file takes an arbitrary .txt file containing as the input argument and :
 
-•Ask users to specify the length of words that will be picked at random•If the specified word length is invalid, an error message must appear before prompting for a new input.•If no word length is specified, a random word should be chosen from the whole list.•The clue should be a randomly shuffled version of the chosen word, but any valid word that is a permutation of the clue string can be correct answer•All list of correct answers must be displayed after informing correctness of the user’s input. 
+    •Ask users to specify the length of words that will be picked at random
+    •If the specified word length is invalid, an error message must appear before prompting for a new input.
+    •If no word length is specified, a random word should be chosen from the whole list.
+    •All list of correct answers are displayed after informing correctness of the user’s input. 
 
 3) <strong>Comparison of 4 different versions of Merge Sort Algorithm </strong>
 
