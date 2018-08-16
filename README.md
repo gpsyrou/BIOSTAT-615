@@ -3,7 +3,7 @@
 
 1) <strong>Changing money problem,using Divide and Conquer</strong>  (coin change problem.py)
 
-Thefirst line of our output should containthe total number of possible combinations. If the number is positive, starting from the second line, we list all the specific combinations, where the number of bills or coins of each values are printed.
+    Thefirst line of our output should containthe total number of possible combinations. If the number is positive, starting from the second line, we list all the specific combinations, where the number of bills or coins of each values are printed.
 
 2) <strong>Unscrambler game</strong> (gspyrou_unscrambler.py)
 
