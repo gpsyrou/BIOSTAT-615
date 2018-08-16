@@ -14,7 +14,7 @@ This .py file takes an arbitrary .txt file containing as the input argument and 
     •If no word length is specified, a random word should be chosen from the whole list.
     •All list of correct answers are displayed after informing correctness of the user’s input. 
 
-3) <strong>Comparison of 4 different versions of Merge Sort Algorithm </strong>
+3) <strong>Comparison of 4 different versions of Merge Sort Algorithm </strong> (sorting_algor.cpp)
 
     Task: Construct 4 different versions of the merge sort algorithm, given some predefined functions (or more accurately, given the arguments).
     <br><br/>
