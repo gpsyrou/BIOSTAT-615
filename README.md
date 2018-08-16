@@ -7,6 +7,10 @@ Thefirst line of our output should containthe total number of possible combinati
 
 2) <strong>Unscrambler game</strong>
 
+This .py file takes an arbitrary .txt file containing as the input argument and :
+
+•Ask users to specify the length of words that will be picked at random•If the specified word length is invalid, an error message must appear before prompting for a new input.•If no word length is specified, a random word should be chosen from the whole list.•The clue should be a randomly shuffled version of the chosen word, but any valid word that is a permutation of the clue string can be correct answer•All list of correct answers must be displayed after informing correctness of the user’s input. 
+
 3) <strong>Comparison of 4 different versions of Merge Sort Algorithm </strong>
 
     Task: Construct 4 different versions of the merge sort algorithm, given some predefined functions (or more accurately, given the arguments).
