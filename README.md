@@ -21,3 +21,5 @@ This .py file takes an arbitrary .txt file containing as the input argument and 
     At first, we implemented the version in which we were passing the array, which we wanted to sort, by using a pointer. Secondly, we implemented a merge sort algorithm by passing a value (in our homework program specifically was a vector).Our third function was about merge sort by passing a vector via reference. Finally, the last one was pretty much in the same logic as the third, with only difference that we were also passing by reference a second vector (that helped us to perform the task a little better and faster as we will see later in this discussion).
 <br><br/>
     After we built these four functions, we tried to run them given a predefined C++ code  and include the testing of these four algorithms in 12 different cases (where each case was testing the algorithms on a different size each time-the sizes were ranged from 10000 to 50000000.)
+
+4) <strong> Comparison of 3 famous sorting algorithms: Bubble Sort, Merge Sort, Insertion Sort </strong> (sort_.cpp)
