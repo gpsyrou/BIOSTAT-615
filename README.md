@@ -22,7 +22,7 @@ This .py file takes an arbitrary .txt file containing as the input argument and 
 <br><br/>
     After we built these four functions, we tried to run them given a predefined C++ code  and include the testing of these four algorithms in 12 different cases (where each case was testing the algorithms on a different size each time-the sizes were ranged from 10000 to 50000000.)
    
-Time Complexity Plot:
+Time Complexity Plot after the simulations:
 
 
 4) <strong> Comparison of 3 famous sorting algorithms: Bubble Sort, Merge Sort, Insertion Sort  and test them against some predefined c++ sorting algorithms </strong> (sort_.cpp)
