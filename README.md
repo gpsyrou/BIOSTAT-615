@@ -22,6 +22,9 @@ This .py file takes an arbitrary .txt file containing as the input argument and 
 <br><br/>
     After we built these four functions, we tried to run them given a predefined C++ code  and include the testing of these four algorithms in 12 different cases (where each case was testing the algorithms on a different size each time-the sizes were ranged from 10000 to 50000000.)
    
+4) <strong> Comparison of 3 famous sorting algorithms: Bubble Sort, Merge Sort, Insertion Sort  and test them against some predefined c++ sorting algorithms </strong> (sort_.cpp)
+<br><br/>
+
 Time Complexity Plot after the simulations:
 
 ![alt text](https://github.com/gpsyrou/BIOSTAT-615/blob/master/alg_pc.png)
@@ -37,7 +40,3 @@ The second group consists of the algorithms that run in Θ(n*log n) time and are
     <br><br/>
 	Θ (n*logn) - group:
 For this group we can see that all three of them perform the same for small amounts of data. While the data is getting larger we see that Merge sort is starting to perform slower(approximately at the 5th-6th iteration) than the other two algorithms (std sort and sort).This is happening due to the fact that merge sort is a divide and conquer algorithm which is using recursion that makes it slower, while the algorithms std_sort and sort don’t have a specific algorithm type , as they are predefined in the build-in libraries of C++(std::sort) and R(sort).Specifically, std sort and sort are usually using a hybrid type of algorithms(for example in C++ std::sort is using introsort which is a hybrid of quicksort and heapsort) in order to perform the sorting , with only requirement to perform at Θ(n*logn), but they are still performing better than merge sort for the aforementioned reason. Finally, between std sort and sort, we are comparing between two build in functions for sorting and their differences are small but significant. We can see from the plot and the data that we received from our analysis,that std sort performs better in general than the sort algorithm for all of the iterations that we performed, and as the data was getting bigger we observed that fact by looking at the computational time for each of them.Specifically, from the 5th iteration of the sort algorithm, the time complexity started having big differences(it started performing slower), compared to the time that std sort was performing for the respective amounts of data.
-
-
-
-4) <strong> Comparison of 3 famous sorting algorithms: Bubble Sort, Merge Sort, Insertion Sort  and test them against some predefined c++ sorting algorithms </strong> (sort_.cpp)
