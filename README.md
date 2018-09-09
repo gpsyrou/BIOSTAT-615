@@ -24,5 +24,7 @@ This .py file takes an arbitrary .txt file containing as the input argument and 
    
 Time Complexity Plot after the simulations:
 
+![alt text](https://github.com/gpsyrou/BIOSTAT-615/blob/master/alg_pc.png)
+
 
 4) <strong> Comparison of 3 famous sorting algorithms: Bubble Sort, Merge Sort, Insertion Sort  and test them against some predefined c++ sorting algorithms </strong> (sort_.cpp)
