@@ -23,10 +23,8 @@ words_names = [] # names of the words / list that will hold the keys of the dict
 
 for k in content:
     the_full_Diction[k] = str(sorted(k)) # i used the_full_Diction as in the lecture's example
-                                  
 
 words_names = list(the_full_Diction.keys()) # we defined it above
-
 
 print("") # i ll use some of them so i can make the display easier to read
 print("---------------------------------------------"+
@@ -86,8 +84,7 @@ while itt_is == True:
                         if sorted_word in v:
                             answers.append(k) #we get all the possible answers
                     break
-                            
-
+                    
     # get a random permuted word
     random_permuted_word = ''.join(random.sample(random_content,len(random_content)))
     
@@ -104,7 +101,6 @@ while itt_is == True:
         print("Sorry.. incorrect")
         print("Correct answer(s) were : " + str(answers))
         whole_counter_of_games += 1  # +1 every time we play / even when we dont have the correct answer
-
 
 #### now the game ended ,we can print some statistics
 # like how many times the player played the game
