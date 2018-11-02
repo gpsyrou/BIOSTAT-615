@@ -1,6 +1,5 @@
 #### Author : Georgios Spyrou
 
-# importing the libraries that we are allowed to 
 import random
 import sys
 try: input = raw_input  ## for python 2 ( because 2.0 doesnt read the input)
