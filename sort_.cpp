@@ -7,12 +7,9 @@ using namespace std;
 // [[Rcpp::export]]
 
 NumericVector insertion_sort(NumericVector x) {
-  /* at first we are performing the insertion sort algorithm*/
+  
     int n = x.size();
     int tmp_c;
-    /* we are following the logic as in the lecture notes and what
-    * we learn in class
-    */
       for(int i = 1; i < n; i++){
         for(int k = i; k>0 ; k--){
           if(x[k-1]>x[k]){
@@ -85,8 +82,6 @@ void merge_sort(NumericVector x, int l, int r) {
     }
   }
 }
-
-
 
   /*one is calling the merge sort algorithm ,while the other one is calling
 * the standard case of "Sort"
