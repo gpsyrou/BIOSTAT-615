@@ -12,8 +12,6 @@ itter_c = 0
 blank_list = [] # list - combinations of coins/bills 
 checking_ = True # it will check if we used float numbers
 
-# first we do a check if any of the inserted values is coins / i.e. float numbers
-# and thus if any is float we "transform" them to int like below
 if  all(type(item)==int for item in denomination_amounts) == False:
     denomination_amounts = [i * 100 for i in denomination_amounts]
     input_amount = input_amount * 100
