@@ -1,14 +1,14 @@
 from __future__ import print_function
 
-# proper file reading into the terminal with the args
+
 import sys
 #read the argumets i.e the amount of money we want to divide and the denominations
 input_amount = float(sys.argv[1]) # will be the amount we want to set as our goal
 denomination_amounts = sys.argv[2:] # the denominations we will use
 denomination_amounts = list(map(float,denomination_amounts[0:]))
 
-coins_n_bills = [] # empty list we will use
-itter_c = 0 # it will count some of our itteration/useful for total possible ways
+coins_n_bills = []
+itter_c = 0 
 blank_list = [] # list - combinations of coins/bills 
 checking_ = True # it will check if we used float numbers
 
