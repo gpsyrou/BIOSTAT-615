@@ -34,9 +34,6 @@ print("---------------------------------------------"+
 # we ask the user for an input values which is going to be the length of
 # the word
 
-# now the game begins / we will use a while loop to make the users able to play
-# as much as they want
-
 while itt_is == True:
     bool_ = True
     print("")
@@ -92,7 +89,7 @@ while itt_is == True:
     persons_guess = str(input("Unscramble the word  " + 
                                   "'%s'"%str(random_permuted_word) + ": "))
     
-        # did we have a correct guess??? lets check
+        
     if  persons_guess in answers  :
         print("Correct!")
         print("Correct answer(s) were : " + str(answers))
