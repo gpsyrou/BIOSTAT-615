@@ -12,7 +12,7 @@ with open(sys.argv[1],'r') as f: # sys.argv[1] to replace the file name
 content = [x.strip() for x in content] # so we can remove the /n
 itt_is = True # some bool values that will help the control
 whole_counter_of_games = 0  # will count the total amount of times the user played
-bool_=True # just another boolean variable to help the control
+bool_=True 
 
 the_full_Diction = {} # dictionary that will hold something we explain in a bit
 words_names = [] # names of the words / list that will hold the keys of the dict
